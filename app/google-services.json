@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "216887311373",
+    "firebase_url": "https://tourproject-e2ed2.firebaseio.com",
+    "project_id": "tourproject-e2ed2",
+    "storage_bucket": "tourproject-e2ed2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216887311373:android:cf3c62193d84cf633ea944",
+        "android_client_info": {
+          "package_name": "com.burak.tour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216887311373-88an0pogfvov0nnmo9dlbhtcodgvmhl6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.burak.tour",
+            "certificate_hash": "f79d6b7ebf007e64d98cf976984b16b02deadb5c"
+          }
+        },
+        {
+          "client_id": "216887311373-iaqln75cui94odsni5bo4oh659dpaho8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGYX5B_3CCrXS6BOlk8YaC-16qBV7Ow8Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216887311373-iaqln75cui94odsni5bo4oh659dpaho8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

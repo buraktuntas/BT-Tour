@@ -1,0 +1,43 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.DeviceDefault.Light.ProgressBar"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:id="@+id/textView"
+        android:paddingLeft="16dp"
+        android:paddingRight="15dp"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:textSize="22dp"
+        android:layout_height="wrap_content"
+        android:textColor="#FF8B8B"
+        android:fontFamily="@font/lato"/>
+
+    <TextView
+        android:id="@+id/numberTour"
+        android:paddingLeft="16dp"
+        android:paddingRight="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:layout_marginTop="4dp"
+        android:textColor="#707070"
+        android:layout_below="@id/textView" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/vertical_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="12dp"
+        android:layout_below="@id/numberTour">
+
+    </androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>

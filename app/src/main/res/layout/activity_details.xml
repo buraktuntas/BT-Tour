@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.26">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/my_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:elevation="4dp"/>
+
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:id="@+id/SliderDots"
+            android:layout_below="@+id/viewPager"
+            android:orientation="horizontal"
+            android:gravity="center | bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"></LinearLayout>
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_below="@id/avatar"
+        android:layout_weight="0.4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="60dp"
+            android:paddingBottom="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="60dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lato"
+                android:text="A Guide To Rocky Mountain Vacations"
+                android:textColor="#FF8B8B"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/tourid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="Ryan Estrada"
+                android:textColor="@color/name_text_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="Ryan Estrada"
+                android:textColor="@color/name_text_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/createdAt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="Ryan Estrada"
+                android:textColor="@color/name_text_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="Ryan Estrada"
+                android:textColor="@color/name_text_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="Ryan Estrada"
+                android:textColor="@color/name_text_color"
+                android:textSize="12sp" />
+            <TextView
+                android:id="@+id/lorem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="Örnek Yazı\nLorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur."
+                android:textColor="@color/name_text_color"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FF8B8B"></LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="0px"
+        android:layout_weight="0.1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_width="0px"
+                android:layout_weight="0.2">
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/lato"
+                    android:textColor="@color/name_text_color"
+                    android:textSize="12sp" />
+                <TextView
+                    android:id="@+id/star"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/star"
+                    android:textColor="@color/name_text_color"
+                    android:textSize="12sp" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="103dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/buttonshape_click"
+                android:text="Book Now"
+                android:textColor="@color/white"
+                android:textSize="14sp">
+            </Button>
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>
